@@ -481,66 +481,66 @@
         </div>
     </section>
 
-    <!-- contact section started -->
-
-    <section class="section" id="contact">
-        <div class="contact-container">
-            <h3 class="contact-title">Contact Me</h3>
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
-                    onload="if(submitted) { resetForm(); }"></iframe>
+    <!-- Contact Section -->
+<section class="section" id="contact">
+    <div class="contact-container">
+        <h3 class="contact-title">Contact Me</h3>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+                onload="if(submitted) { resetForm(); }"></iframe>
+        
+        <form class="contact-form" 
+              id="contact-form" 
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeYnQg1VgupWAimmn2DpZjZc05PvcLtw389KidfySjhKBixsA/formResponse" 
+              method="post" 
+              target="hidden_iframe" 
+              onsubmit="submitted=true; return validateForm();">
             
-            <form class="contact-form" 
-                  id="contact-form" 
-                  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeYnQg1VgupWAimmn2DpZjZc05PvcLtw389KidfySjhKBixsA/formResponse"" 
-                  method="post" 
-                  target="hidden_iframe" 
-                  onsubmit="submitted=true; return validateForm();">
-                
-                <div class="input-group">
-                    <div class="input-wrapper">
-                        <input type="text" 
-                               required 
-                               class="form-input" 
-                               id="name" 
-                               name="entry.219726138" 
-                               placeholder="Enter your Name">
-                    </div>
-                    
-                    <div class="input-wrapper">
-                        <input type="email" 
-                               required 
-                               class="form-input" 
-                               id="email" 
-                               name="entry.1728897036" 
-                               placeholder="Email Address">
-                    </div>
-                    
-                    <div class="input-wrapper">
-                        <input type="text" 
-                               required 
-                               class="form-input" 
-                               id="subject" 
-                               name="entry.332399147" 
-                               placeholder="Subject">
-                    </div>
+            <div class="input-group">
+                <div class="input-wrapper">
+                    <input type="text" 
+                           required 
+                           class="form-input" 
+                           id="name" 
+                           name="entry.219726138" 
+                           placeholder="Enter your Name">
                 </div>
                 
-                <div class="message-section">
-                    <textarea required 
-                              placeholder="Your Message" 
-                              id="message" 
-                              name="entry.1671515099" 
-                              class="message-input"></textarea>
-                    
-                    <button type="submit" 
-                            name="submit" 
-                            class="submit-btn">Send Message</button>
-                    
-                    <div id="success" class="success-message"></div>
+                <div class="input-wrapper">
+                    <input type="email" 
+                           required 
+                           class="form-input" 
+                           id="email" 
+                           name="entry.1728897036" 
+                           placeholder="Email Address">
                 </div>
-            </form>
-        </div>
-    </section>
+                
+                <div class="input-wrapper">
+                    <input type="text" 
+                           required 
+                           class="form-input" 
+                           id="subject" 
+                           name="entry.332399147" 
+                           placeholder="Subject">
+                </div>
+            </div>
+            
+            <div class="message-section">
+                <textarea required 
+                          placeholder="Your Message" 
+                          id="message" 
+                          name="entry.1671515099" 
+                          class="message-input"></textarea>
+                
+                <button type="submit" 
+                        name="submit" 
+                        class="submit-btn">Send Message</button>
+                
+                <div id="success" class="success-message"></div>
+            </div>
+        </form>
+    </div>
+</section>
+
 
     <!-- Footer -->
     <footer class="footer">

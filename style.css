@@ -772,7 +772,7 @@ html {
 }
 
 .icon-link:hover {
-    color: #122cea; /* Change color on hover */
+    color: #8cea12; /* Change color on hover */
 }
 
 
@@ -795,7 +795,6 @@ html {
 
 /* Contact page css */
 
-
 :root {
     --primary-black: #000;
     --secondary-gray: #333;
@@ -805,20 +804,21 @@ html {
 }
 
 #contact {
-    margin: 50px;
+    margin: 50px auto;
     background-color: var(--light-gray);
-    padding: 4rem 0;
+    padding: 4rem 1rem;
     border-radius: 20px;
+    max-width: 800px;
 }
 
 .contact-container {
     max-width: 600px;
     margin: 0 auto;
     padding: 0 15px;
+    text-align: center;
 }
 
 .contact-title {
-    text-align: center;
     margin-bottom: 2rem;
     color: var(--primary-black);
     font-size: 2rem;
@@ -838,29 +838,18 @@ html {
     margin-bottom: 1rem;
 }
 
-.input-wrapper {
-    width: 100%;
-}
-
-.form-input,
-.message-input {
+.form-input, .message-input {
     width: 100%;
     padding: 0.75rem;
     border: 1px solid #ddd;
     border-radius: 4px;
     transition: border-color 0.3s ease;
+    font-size: 1rem;
 }
 
-.form-input:focus,
-.message-input:focus {
+.form-input:focus, .message-input:focus {
     outline: none;
     border-color: var(--primary-black);
-}
-
-.message-section {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
 }
 
 .message-input {
@@ -875,11 +864,13 @@ html {
     padding: 0.75rem;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .submit-btn:hover {
     background-color: var(--secondary-gray);
+    transform: scale(1.05);
 }
 
 .success-message {
@@ -888,8 +879,17 @@ html {
     margin-top: 1rem;
 }
 
-
-
+@media (max-width: 768px) {
+    #contact {
+        padding: 3rem 1rem;
+    }
+    .contact-form {
+        padding: 1.5rem;
+    }
+    .contact-title {
+        font-size: 1.75rem;
+    }
+}
 
 /* Footer css Give me */
 
