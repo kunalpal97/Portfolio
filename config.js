@@ -1,6 +1,6 @@
 
 
-// Mt le bhai aapan bana le tu khud se smajha na 
+// Mt le bhai aapan bana le tu khud se smajha ke 
 
 const CONFIG = {
     EMAILJS_PUBLIC_KEY: "xInN0YEPB42VbjLNf",
