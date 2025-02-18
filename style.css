@@ -254,26 +254,26 @@ section{
     width: 70%;
 }
 .skills li.JavaScript::after{
-    width: 50%;
+    width: 75%;
 }
 .skills li.C::after{
     width: 55%;
 }
 .skills li.Cplus::after{
-    width: 85%;
+    width: 89%;
 }
 .skills li.Java::after{
-    width: 30%;
+    width: 45%;
 }
 .skills li.Python::after{
-    width: 50%;
+    width: 69%;
 }
 .skills li.react::after{
-    width: 40%;
+    width: 74%;
 }
 
 .skills li.design::after{
-    width: 88%;
+    width: 89%;
 }
 
 
